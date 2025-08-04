@@ -1,10 +1,16 @@
 🏨 Cyber HIBs Hotel – Booking Web App
+
+
 A modern, fully responsive hotel room booking web application with real-time validations and cloud cost optimization principles using Flask and cloud deployment strategies.
 
 🚀 Live Demo
+
 🔗 View App on Render
 (https://cyber-hibs-hotel.onrender.com)
+
+
 📌 Features
+
 🖥️ Interactive UI with glassmorphism design & luxury theme
 
 📅 Real-time date validation (check-in & check-out)
@@ -99,8 +105,6 @@ Response:
   "status": "healthy",
   "service": "Cyber HIBs Hotel Backend"
 }
-📸 Screenshots
-(Add images of your UI, booking form, terminal logs, deployment panel)
 
 📌 License
 This project is made for academic purposes only.
