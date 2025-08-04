@@ -1,0 +1,141 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Inter:wght@400;600&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  background: linear-gradient(to bottom, #1A0B1F, #5D0E26);
+  color: #F5E6D3;
+  overflow-x: hidden;
+}
+
+.navbar {
+  background-color: rgba(26, 11, 31, 0.85);
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+}
+
+.logo {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.8rem;
+  color: #D4AF37;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: #fefefe;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.nav-links li a:hover {
+  color: #D4AF37;
+}
+
+.hero {
+  background: url("../images/background.jpg") center/cover no-repeat;
+  position: relative;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(45, 27, 61, 0.7);
+  z-index: 1;
+}
+
+.booking-card {
+  background: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(10px);
+  padding: 2rem;
+  border-radius: 20px;
+  z-index: 2;
+  position: relative;
+  max-width: 500px;
+  width: 90%;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+  text-align: center;
+}
+
+.booking-card h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #fff;
+}
+
+.booking-card label {
+  display: block;
+  text-align: left;
+  margin: 1rem 0 0.5rem;
+  font-weight: 600;
+}
+
+.booking-card input,
+.booking-card select {
+  width: 100%;
+  padding: 0.8rem 1rem;
+  border: none;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+  background-color: rgba(245, 230, 211, 0.1);
+  color: #fff;
+}
+
+.booking-card button {
+  background-color: #8B1538;
+  color: white;
+  padding: 0.8rem 1.5rem;
+  border: none;
+  border-radius: 50px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.booking-card button:hover {
+  background-color: #B23A48;
+}
+
+/* Flash messages */
+.flash-container {
+  margin: 1rem 0;
+}
+
+.flash {
+  padding: 1rem;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+.flash.error {
+  background-color: #B23A48;
+  color: #fff;
+}
+
+.flash.success {
+  background-color: #2D1B3D;
+  color: #D4AF37;
+}
